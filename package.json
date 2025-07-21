@@ -1,0 +1,28 @@
+{
+  "name": "food_order_app",
+  "version": "1.0.0",
+  "description": "food order and delivery app",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmjayakumar/food_order_app.git"
+  },
+  "keywords": [
+    "food_order_app"
+  ],
+  "author": "kmj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmjayakumar/food_order_app/issues"
+  },
+  "homepage": "https://github.com/kmjayakumar/food_order_app#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
