@@ -1,3 +1,54 @@
-div {
+.header 
+{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.header > .header_logo > .img_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header > .header_navigation > .header-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+
+.body_search
+{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+/* .body_res
+{
     background-color: red;
+} */
+
+.res_card {
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 5px;
+    width: 160px;
+    border: 2px solid yellow;
+}
+
+.res_card:hover {
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+.res_logo {
+    height: 130px;
+    width: 130px;
+    padding: 12px;
+    
+}
+
+.rest-all {
+    display: flex;
 }

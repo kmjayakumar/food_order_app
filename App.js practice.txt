@@ -1,0 +1,36 @@
+import React from "react";
+import {createRoot} from "react-dom/client";
+
+// const heading = React.createElement('h1',{id:"hi"},"namaste react..!");
+
+// react element
+const heading1 = <h1 id="head">namaste React From JSX..!</h1>
+const heading = (
+    <div>
+        {heading1}
+        <h2>i am inherited the another element...</h2>
+    </div>
+    );
+
+// react functional component
+
+const FunctionalHead = () => (
+    <div>
+    {heading}
+
+    </div>
+);
+
+const FunctionalHead2 = () => 
+(
+    <div>
+        <FunctionalHead/>
+        <h2>Two functional component</h2>
+    </div>
+);
+
+
+
+const root = createRoot(document.getElementById('root'));
+
+root.render(<FunctionalHead2/>);
